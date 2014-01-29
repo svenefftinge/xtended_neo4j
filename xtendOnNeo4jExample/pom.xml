@@ -6,6 +6,20 @@
 	<artifactId>xtendOnNeo4jExample</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>xtend-quickstart</name>
+
+	<repositories>
+		<repository>
+			<id>xtend</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</repository>
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>xtend</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</pluginRepository>
+	</pluginRepositories>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<xtend.version>2.5.1-SNAPSHOT</xtend.version>
